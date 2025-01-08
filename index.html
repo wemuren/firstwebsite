@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pozitivus</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="media/logo black.png" alt="логотип">
+        <div class="menu">
+            <a href="website.html#aboutus">О нас</a>
+            <a href="website.html#cases">Кейсы</a>
+            <a href="website.html#workingprocess">Рабочий процесс</a>
+            <a href="website.html#feedback">Отзывы</a>
+            <button>Сообщить об ошибке</button>
+        </div>
+        <div class="burger-menu" id="burgerMenu">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+          <nav class="menu" id="menu">
+            <ul>
+              <li><a href="website.html#aboutus">О нас</a></li>
+              <li><a href="website.html#workingprocess">Рабочий процесс</a></li>
+            </ul>
+          </nav>
+        </header>
+    </header>
+    <main>
+        <section class="aboutus" id="aboutus">
+            <div class="column">
+                <h1 class="slogan">Ориентация в цифровом пространстве - успех.</h1>
+                <h3>Наше агентство цифрового маркетинга помогает бизнесам расти и добиваться успеха в интернете с помощью различных услуг, включая SEO, PPC, маркетинг в социальных сетях и создание контента.</h3>
+                <button>Консультация</button>
+            </div>
+            <img src="media/Illustration 1.png" alt="картинка">
+        </section>
+        <section class="ads">
+            <div class="column">
+                <h1>Давайте сделаем это!</h1>
+                <h3 class="stolbik">Свяжитесь с нами сегодня, чтобы узнать больше о том, как наши услуги цифрового маркетинга могут помочь вашему бизнесу расти и достигать успеха в интернете.</h3>
+                <button>Получить бесплатный тариф</button>
+            </div>
+            <img src="media/Illustration 2.png" alt="картинка">
+        </section>
+
+
+        <section class="case" id="cases">
+            <div class="row">
+                <h1 class="greentext">Кейсы</h1>
+                <h3>Изучите реальные примеры нашего успешного цифрового маркетинга через наши кейс-стадии.</h3>
+            </div>
+            <div class="blackblock">
+                <div class="columnblock">
+                    <h3>Для местного ресторана мы внедрили целенаправленную PPC-кампанию, которая привела к увеличению трафика на сайт на 50% и росту продаж на 25%.</h3>
+                    <div class="learnmore">
+                        <a href="#">Читать далее</a>
+                        <img src="media/arrow.png" alt="стрелочка">
+                    </div>
+                </div>
+                <div class="columnblock">
+                    <h3>Для компании-разработчика программного обеспечения мы разработали стратегию SEO, которая привела к  увеличению органического трафика на 200%.</h3>
+                    <div class="learnmore">
+                        <a href="#">Читать далее</a>
+                        <img src="media/arrow.png" alt="стрелочка">
+                    </div>
+                </div>
+                <div class="columnblock">
+                    <h3>Для национальной розничной сети мы создали кампанию, которая увеличила привела к росту онлайн-продаж на 20%.</h3>
+                    <div class="learnmore">
+                        <a href="#">Читать далее</a>
+                        <img src="media/arrow.png" alt="стрелочка">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="workingprocess" id="workingprocess">
+            <h1 class="greentext">Рабочий процесс</h1>
+
+            <div class="accordion">
+                <div class="accordion-item">
+                  <div class="accordion-header" onclick="toggleAccordion(this)">
+                    <span>01 Консультация</span>
+                    <span class="accordion-icon">+</span>
+                  </div>
+                  <div class="accordion-content">
+                    <p>На начальном этапе мы обсудим цели и задачи вашего бизнеса, целевую аудиторию и текущие маркетинговые усилия. Это позволит нам понять ваши потребности и адаптировать наши услуги под ваши требования.</p>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <div class="accordion-header" onclick="toggleAccordion(this)">
+                    <span>02 Исследование и разработка стратегии</span>
+                    <span class="accordion-icon">+</span>
+                  </div>
+                  <div class="accordion-content">
+                    <p>На этом этапе проводится глубокий анализ вашего рынка, конкурентов и аудитории. Разрабатывается стратегия, которая соответствует вашим целям.</p>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                      <span>03 Внедрение</span>
+                      <span class="accordion-icon">+</span>
+                    </div>
+                    <div class="accordion-content">
+                      <p>После утверждения стратегии начинается реализация запланированных действий. Мы воплощаем все элементы плана на практике.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                      <span>04 Мониторинг и оптимизация</span>
+                      <span class="accordion-icon">+</span>
+                    </div>
+                    <div class="accordion-content">
+                      <p>После внедрения мы следим за результатами, анализируем данные и вносим корректировки для достижения максимальной эффективности.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                      <span>05 Отчеты и коммуникация</span>
+                      <span class="accordion-icon">+</span>
+                    </div>
+                    <div class="accordion-content">
+                      <p>Мы предоставляем регулярные отчеты о прогрессе, обсуждаем результаты и обмениваемся рекомендациями для дальнейшего продвижения.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header" onclick="toggleAccordion(this)">
+                      <span>06 Постоянное улучшение</span>
+                      <span class="accordion-icon">+</span>
+                    </div>
+                    <div class="accordion-content">
+                      <p>Работа не заканчивается на одном цикле. Мы постоянно анализируем новые данные и адаптируем стратегию для достижения долгосрочного успеха.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="feedback" id="feedback">
+            <div class="row">
+                <h1 class="greentext">Отзывы клиентов</h1>
+                <h3>Послушайте наших довольных клиентов: читайте наши отзывы, чтобы узнать больше об услугах цифрового маркетинга.</h3>
+            </div> 
+            <img src="media/отзывы.png" alt="отзывы">
+        </section>
+        <section class="connect">
+            <div class="rowalign">
+                <h1 class="greentext">Связаться с нами</h1>
+                <h3>Давайте обсудим ваши потребности в цифровом маркетинге!</h3>
+            </div>
+                <div class="row">
+                <form>
+                    <div class="column">
+                        <div class="row">
+                            <div class="radiobutton">
+                                <input type="radio" id="var1" name="ask">
+                                <label for="var1">Задать вопрос</label>
+                            </div>
+                            <div class="radiobutton">
+                                <input type="radio" id="var2" name="comment">
+                                <label for="var2">Оставить комментарий</label>
+                            </div>
+                        </div>
+                        <div class="column">
+                        <label for="">Имя</label>
+                        <input type="text" class="inputheight">
+                        
+                        <label for="">Email*</label>
+                        <input type="email" class="inputheight">
+
+                        <label for="">Сообщение</label>
+                        <input type="text" class="sms">
+
+                        <button type="submit">Отправить</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="row">
+            <img src="media/logo white.png" alt="логотип">
+            <div class="menufooter">
+            <a href="website.html#aboutus">О нас</a>
+            <a href="website.html#cases">Кейсы</a>
+            <a href="website.html#workingprocess">Рабочий процесс</a>
+            <a href="website.html#feedback">Отзывы</a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <h2 class="greentext">Связаться с нами:</h2>
+                <p>Email: info@positivus.com</p>
+                <p>Телефон: 8 (800) 555-35-35</p>
+                <p>Адрес: Проще позвонить, чем у кого-то занимать</p>
+            </div>
+
+            <div class="footerrow">
+                <input type="email" placeholder="Email" class="footeremail">
+                <button type="submit">Подписаться на рассылку</button>
+            </div>
+        </div>
+            <h4>© 2024 Positivus. Все права защищены.</h4>
+            <a href="#">Политика конфиденциальности</a>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>

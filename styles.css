@@ -1,0 +1,1006 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: 'Montserrat';
+}
+
+h1 
+{
+    font-weight: 500;
+    font-size: 3em;
+    margin-bottom: 5%;
+}
+
+h3
+{
+    font-weight: 400;
+    font-size: 2em;
+    margin-bottom: 5%;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 4%;
+}
+
+header img{
+    width: 20%;
+}
+.menu a{
+    color: #191A23;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 1.5em;
+}
+.menu button{
+    padding: 20px;
+    background-color: white;
+    border: #191A23 solid 1px;
+    border-radius: 10px;
+    font-size: 1.5em;
+}
+
+
+.slogan{
+    font-weight: 400;
+    font-size: 4em;
+}
+
+
+.aboutus{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 4%;
+}
+
+.aboutus img{
+    width: 45%;
+    height: 45%;
+}
+
+.aboutus button{
+    background-color: #191A23;
+    color: white;
+    padding: 2%;
+    border-radius: 15px;
+    width: 30%;
+    font-size: 1.5em;
+}
+
+.ads {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 4%;
+    background-color: #F3F3F3;
+    padding: 2% 5%;
+    border: #F3F3F3 solid 1px;
+    border-radius: 20px;
+}
+
+.ads img{
+    width: 30%;
+    margin-right: 5%;
+}
+
+.ads button{
+    background-color: #191A23;
+    color: white;
+    padding: 2%;
+    border-radius: 10px;
+    width: 50%;
+    font-size: 1.5em;
+}
+
+
+.greentext{
+    background-color: #B9FF66;
+    display: inline-block;
+    padding: 1%;
+    border-radius: 10px;
+    line-height: 1;
+    width: 30%;
+}
+
+.case{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 4%;
+}
+
+.case .greentext{
+    width: 10%;
+    margin-right: 2%;
+}
+
+.learnmore img{
+    width: 3%;
+    margin-left: 1%;
+}
+
+.learnmore{
+    align-items: center;
+}
+
+.blackblock{
+    background-color: #191A23;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.blackblock h3{
+    font-size: 1.5em;
+}
+
+
+.columnblock{
+    padding: 1% 3%;
+}
+
+.blackblock a{
+    color: #B9FF66;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.workingprocess{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 4%;
+}
+
+.workingprocess .greentext{
+    width: 30%;
+}
+.feedback{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 4%;
+}
+
+.feedback img{
+    width: 100%;
+}
+
+.feedback .greentext{
+    width: 50%;
+    margin-right: 3%;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.stolbik{
+    width: 60%;
+}
+.rowalign{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+.connect{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 4%;
+}
+
+.connect .greentext{
+    width: 26%;
+    margin-right: 3%;
+}
+
+
+form{
+    background-color: #F3F3F3;
+    display: flex;
+    flex-direction: row;
+    padding: 3% 5%;
+    border: #F3F3F3 solid 1px;
+    border-radius: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+input[type="text"],
+input[type="radio"],
+select{
+    margin-bottom: 3%;
+    border: #191A23 solid 1px;
+    border-radius: 10px;
+}
+
+.sms{
+    height: 40%;
+}
+.inputheight{
+    margin-bottom: 2%;
+    border: #191A23 solid 1px;
+    border-radius: 10px;
+    height: 40px;
+}
+
+.radiobutton{
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+form button{
+    border: #191A23 solid 1px;
+    background-color: #191A23;
+    color: white;
+    border-radius: 10px;
+    margin-top: 2%;
+    height: 40px;
+}
+
+.connect img{
+    height: 10%;
+    width: 10%;
+    margin-left: 50%;
+}
+
+.connect .greentext{
+    width: 30%;
+}
+
+footer{
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #191A23;
+    border: #191A23 solid 1px;
+    border-radius: 40px 40px 0px 0px;
+    padding: 3%;
+    color: white;
+}
+
+
+footer a{
+    color: white;
+}
+
+.menufooter a{
+    margin-left: 3%;
+}
+
+.menufooter{
+    margin-left: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+footer img{
+    width: 20%;
+}
+
+footer .greentext{
+    color: #191A23;
+    width: 60%;
+}
+
+footer button{
+    background-color: #B9FF66;
+    padding: 3%;
+    border-radius: 15px;
+    font-size: 1em;
+    width: 203%;
+    margin-top: 2%;
+}
+
+.footeremail{
+    height: 40px;
+    background-color: #191A23;
+    border: #F3F3F3 solid 1px;
+    border-radius: 15px;
+    padding: 0% 3%;
+    width: 195%;
+}
+.footeremail::placeholder{
+    color: white;
+}
+
+.footerrow{
+    display: flex;
+    flex-direction: column;
+    margin-left: 45%;
+    margin-top: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.accordion {
+    font-family: 'Montseratt';
+    width: 100%;
+    margin: 0 auto;
+    padding: 2%;
+    font-size: 1em;
+  }
+  
+  .accordion-item {
+    margin-bottom: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 0px #191A23;
+    transition: box-shadow 0.3s ease;
+    border-radius: 15px;
+    background-color: #B9FF66;
+  }
+  
+  .accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    font-weight: bold;
+    background-color: #F3F3F3;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 0;
+    position: relative;
+    
+  }
+  
+  .accordion-header:hover {
+    background-color: #e6e6e6;
+  }
+  
+  .accordion-header::after {
+    content: ""; /* Создаём псевдоэлемент */
+    position: absolute;
+    bottom: -1px; /* Расположение полоски */
+    left: 10%; /* Отступ от левого края */
+    right: 10%; /* Отступ от правого края */
+    height: 1px; /* Толщина полоски */
+    background-color: #000; /* Цвет полоски */
+    display: block;
+  }
+  
+  .accordion-header.active {
+    background-color: #B9FF66;
+    color: #000;
+  }
+  
+  
+  .accordion-content {
+    display: none;
+    background-color: #B9FF66;
+    padding: 1%;
+    line-height: 1.5;
+    font-size: 1em;
+    border: none;
+    transition: max-height 0.3s ease-in-out;
+    border-top: 1px solid #000;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .accordion-item.active {
+    box-shadow: 0 3px 0px #191A23;
+  }
+  
+  .accordion-icon {
+    font-weight: bold;
+    font-size: 18px;
+    transition: transform 0.3s;
+  }
+  
+  .accordion-header.active .accordion-icon {
+    transform: rotate(45deg);
+  }
+
+
+
+
+  nav.menu {
+    display: none; /* По умолчанию меню скрыто */
+  }
+  
+  nav.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav.menu ul li {
+    margin: 10px 0;
+  }
+  
+  nav.menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+  }
+  
+  /* Бургер-иконка */
+  .burger-menu {
+    display: none; /* Скрываем по умолчанию */
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+  }
+  
+  .burger-menu .line {
+    height: 4px;
+    background-color: #191A23;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+
+
+
+
+  @media (max-width:1600px) {
+    h1{
+        font-size: 2.75em;
+    }
+    h3{
+        font-size: 1.75em;
+    }
+    footer button{
+        width: 153%;
+    }
+    .footeremail{
+        width: 145%;
+    }
+  }
+
+
+  @media (max-width:1280px) {
+    h1{
+        font-size: 2.45em;
+    }
+    h3{
+        font-size: 1.55em;
+    }
+
+    .menu a{
+        font-size: 1.25em;
+    }
+    .menu button{
+        font-size: 1.25em;
+    }
+    .aboutus button{
+        font-size: 1.25em;
+    }
+    .ads img{
+        width: 40%;
+        margin-right: 5%;
+    }
+    .ads button{
+        width: 60%;
+        font-size: 1.25em;
+    }
+    .greentext{
+        font-size: 1.75em;
+    }
+    .blackblock h3{
+        font-size: 1.25em;
+    }
+    .blackblock a{
+        font-size: 1.15em;
+    }
+
+    .menufooter{
+        margin-left: 30%;
+    }
+    footer .greentext{
+        font-size: 1.25em;
+    }
+    footer button{
+        width: 153%;
+    }
+    .footeremail{
+        width: 145%;
+    }
+    .footerrow{
+        display: flex;
+        flex-direction: column;
+        margin-left: 25%;
+        margin-top: 10%;
+    }
+
+  }
+
+
+  @media (max-width:1024px) {
+    h1{
+        font-size: 2em;
+    }
+    h3{
+        font-size: 1.25em;
+    }
+
+    .menu a{
+        font-size: 1em;
+    }
+    .menu button{
+        font-size: 1em;
+    }
+
+    .slogan{
+        font-weight: 400;
+        font-size: 2.75em;
+    }
+    .aboutus button{
+        font-size: 1em;
+    }
+    .ads img{
+        width: 40%;
+        height: 40%;
+        margin-right: 3%;
+    }
+    .ads button{
+        width: 60%;
+        font-size: 1em;
+    }
+    .greentext{
+        font-size: 1.55em;
+    }
+    .blackblock h3{
+        font-size: 1em;
+    }
+    .blackblock a{
+        font-size: 1em;
+    }
+
+    .menufooter{
+        margin-left: 30%;
+    }
+    footer .greentext{
+        font-size: 1.25em;
+    }
+    footer button{
+        width: 133%;
+    }
+    .footeremail{
+        width: 125%;
+    }
+    .footerrow{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+}
+
+@media (max-width:768px) {
+    h1{
+        font-size: 2em;
+    }
+    h3{
+        font-size: 1.25em;
+    }
+
+    .menu a{
+        font-size: 1em;
+    }
+    .menu button{
+        display: none;
+    }
+
+    .slogan{
+        font-weight: 400;
+        font-size: 2.75em;
+    }
+    .aboutus{
+        display: block;
+    }
+    .aboutus button{
+        font-size: 1em;
+        width: 60%;
+        margin-left: 15%;
+    }
+    .aboutus img{
+        margin-top: 8%;
+        margin-left: 20%;
+        width: 50%;
+    }
+
+    .ads img{
+        display: none;
+    }
+    .ads h1{
+        margin-left: 20%;
+        display: flex;
+        text-align: center;
+    }
+    .ads h3{
+        margin-left: 20%;
+        display: flex;
+        text-align: center;
+    }
+    .ads button{
+        width: 60%;
+        font-size: 1em;
+        margin-left: 20%;
+    }
+
+    .case{
+        display: none;
+    }
+    .feedback{
+        display: none;
+    }
+
+    .workingprocess .greentext{
+        font-size: 1.25em;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-left: 35%;
+    }
+
+    .connect .greentext{
+        font-size: 1.25em;
+        width: 40%;
+    }
+
+    .menufooter{
+        margin-left: 15%;
+    }
+    
+    footer .greentext{
+        font-size: 1em;
+        width: 45%;
+    }
+    footer button{
+        width: 103%;
+    }
+    .footeremail{
+        width: 95%;
+    }
+    footer p{
+        font-size: 0.9em;
+    }
+    .footerrow{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+    }
+}
+
+@media (max-width:480px) {
+    h1{
+        font-size: 2em;
+    }
+    h3{
+        font-size: 1em;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    header img{
+        width: 30%;
+    }
+
+    .line{
+        background-color: #191A23;
+    }
+
+    .burger-menu {
+        display: flex; /* Показываем бургер-иконку */
+        background-color: white;
+    }
+    
+    nav.menu {
+        position: absolute;
+        top: 50px;
+        right: 10px;
+        background-color: #333;
+        border-radius: 15px;
+        align-items: flex-end;
+        padding: 10px;
+        display: none; /* Скроем меню изначально */
+        flex-direction: column;
+        width: 200px;
+        opacity: 95%;
+    }
+    
+      nav.menu.show {
+        display: flex; /* Показываем меню, когда бургер активен */
+      }
+
+    .slogan{
+        font-weight: 400;
+        font-size: 1.75em;
+    }
+    .aboutus button{
+        font-size: 1em;
+        width: 60%;
+        margin-left: 20%;
+    }
+    .aboutus img{
+        display: none;
+    }
+
+    .ads img{
+        display: none;
+    }
+    .ads h1{
+        font-size: 1.55em;
+        margin-left: 15%;
+        display: flex;
+        text-align: center;
+    }
+    .ads h3{
+        width: 80%;
+        margin-left: 12%;
+    }
+    .ads button{
+        width: 80%;
+        font-size: 1em;
+        margin-left: 12%;
+    }
+
+    .case{
+        display: none;
+    }
+    .feedback{
+        display: none;
+    }
+
+    .workingprocess .greentext{
+        font-size: 1.25em;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-left: 25%;
+        width: 50%;
+        margin-top: 15%;
+    }
+
+    .connect .greentext{
+        font-size: 1.25em;
+        width: 45%;
+        align-items: center;
+        margin-left: 25%;
+    }
+    .connect h3{
+        display: none;
+    }
+
+
+    label{
+        font-size: 1em;
+    }
+    form .column{
+        width: 100%;
+    }
+    form .row{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    form button{
+        height: 50px;
+    }
+
+
+    footer img{
+        width: 50%;
+        padding: 10px;
+        align-items: center;
+        margin-left: 20%;
+    }
+    .menufooter{
+        display: none;
+    }
+    
+    footer .greentext{
+       display: none;
+    }
+    footer button{
+        width: 103%;
+    }
+    .footeremail{
+        width: 95%;
+    }
+    footer p{
+        font-size: 0.9em;
+    }
+    .footerrow{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+    }
+    footer h4{
+        margin-left: 7%;
+    }
+    footer a{
+        margin-left: 15%;
+    }
+}
+
+
+@media (max-width:480px) {
+    h1{
+        font-size: 1.5em;
+    }
+    h3{
+        font-size: 1em;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    header img{
+        width: 50%;
+    }
+
+    .line{
+        background-color: #191A23;
+    }
+
+    .burger-menu {
+        display: flex; /* Показываем бургер-иконку */
+        background-color: white;
+    }
+    
+    nav.menu {
+        position: absolute;
+        top: 50px;
+        right: 10px;
+        background-color: #333;
+        border-radius: 15px;
+        align-items: flex-end;
+        padding: 10px;
+        display: none; /* Скроем меню изначально */
+        flex-direction: column;
+        width: 200px;
+        opacity: 95%;
+    }
+    
+      nav.menu.show {
+        display: flex; /* Показываем меню, когда бургер активен */
+      }
+
+    .slogan{
+        font-weight: 400;
+        font-size: 1.75em;
+    }
+    .aboutus button{
+        font-size: 1em;
+        width: 60%;
+        margin-left: 20%;
+    }
+    .aboutus img{
+        display: none;
+    }
+
+    .ads img{
+        display: none;
+    }
+    .ads h1{
+        font-size: 1.25em;
+        margin-left: 5%;
+        display: flex;
+        text-align: center;
+    }
+    .ads h3{
+        width: 100%;
+        margin-left: 2%;
+    }
+    .ads button{
+        width: 100%;
+        font-size: 0.9em;
+        margin-left: 0%;
+    }
+
+    .case{
+        display: none;
+    }
+    .feedback{
+        display: none;
+    }
+
+    .workingprocess .greentext{
+        font-size: 1.25em;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-left: 15%;
+        width: 70%;
+        margin-top: 15%;
+    }
+
+    .connect .greentext{
+        font-size: 1.25em;
+        width: 70%;
+        align-items: center;
+        margin-left: 15%;
+    }
+    .connect h3{
+        display: none;
+    }
+
+
+    label{
+        font-size: 1em;
+    }
+    form .column{
+        width: 100%;
+    }
+    form .row{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    form button{
+        height: 50px;
+    }
+
+
+    footer img{
+        width: 50%;
+        padding: 10px;
+        align-items: center;
+        margin-left: 20%;
+    }
+    
+    footer .greentext, button, .footeremail, .menufooter, .footerrow{
+       display: none;
+    }
+    footer p{
+        font-size: 0.8em;
+        text-align: center;
+    }
+    footer h4{
+        margin-left: 2%;
+        font-size: 0.7em;
+    }
+    footer a{
+        margin-left: 12%;
+        font-size: 0.7em;
+    }
+}
